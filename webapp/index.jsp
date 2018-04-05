@@ -18,8 +18,9 @@
 		Mario HTML5 running on Web App for Containers (Open Day SDS tag 10)
 	</h1>       
       
-		<h2>Running on App Service on Linux (Singapore DC - <%= System.getenv("MySettingOne") %>)</h2>
-
+		<h2>Running on App Service on Linux</h2>
+ 	<h3>App Setting Example : <%= System.getenv("MySettingOne") %> </h3>
+	<h3>Connection String Example : <%= System.getenv("MYSQLCONNSTR__MyDBConnString") %> </h3> 
         <!-- Enjine Includes -->
         <script src="Enjine/core.js"></script>
         <script src="Enjine/gameCanvas.js"></script>
